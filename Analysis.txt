@@ -1,0 +1,5 @@
+An interesting find from the data tested and trained: 
+
+for LogisticalRegression(), I noticed that the testing score and training score are relatively the same with roughly 1 point away from an 100% prediction. Which shows a really good model for using.
+
+for RandomForestClassifier(), The traning score is about 16% higher than the testing score. This was a bit shocking because I predicted the RFC would be a better model since I thought the data was dealing with more classes, but no. It's actually binary based on the loan status column. I believe this instance is called "Precision/Recall Trade-off."
